@@ -1,0 +1,21 @@
+{
+	"name": "charmed-icons",
+	"displayName": "Charmed Icons",
+	"description": "A charming icon set for Roblox codebases",
+	"version": "0.1.0",
+	"engines": {
+		"vscode": "^1.88.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"iconThemes": [
+			{
+				"id": "charmed-icons",
+				"label": "Charmed",
+				"path": "./themes/charmed-icon-theme.json"
+			}
+		]
+	}
+}
