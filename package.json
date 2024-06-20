@@ -1,8 +1,16 @@
 {
 	"name": "charmed-icons",
 	"displayName": "Charmed Icons",
-	"description": "A charming icon set for Roblox codebases",
+	"description": "💝 Charming icon set for Roblox codebases",
 	"version": "0.1.0",
+	"publisher": "littensy",
+	"icon": "assets/icon.png",
+	"license": "MIT",
+	"type": "module",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/littensy/charmed-icons"
+	},
 	"engines": {
 		"vscode": "^1.88.0"
 	},
@@ -17,5 +25,14 @@
 				"path": "./themes/charmed-icon-theme.json"
 			}
 		]
+	},
+	"scripts": {
+		"lint": "eslint ."
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.5.0",
+		"@vscode/vsce": "^2.28.0",
+		"eslint": "^9.5.0",
+		"eslint-plugin-json": "^4.0.0"
 	}
 }

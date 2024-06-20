@@ -1,16 +1,52 @@
-# charmed-icons README
+<p align="center">
+  <p align="center">
+	<img src="assets/icon.png" alt="Logo" width="128" />
+  </p>
+  <h1 align="center"><b>Charmed Icons</b></h1>
+  <p align="center">
+    A charming set of icons for your Roblox projects.
+    <br />
+    <a href="https://marketplace.visualstudio.com/items?itemName=littensy.charmed-icons"><strong>Marketplace →</strong></a>
+  </p>
+</p>
 
-## Working with Markdown
+<div align="center">
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+[![GitHub License](https://img.shields.io/github/license/littensy/charmed-icons?style=for-the-badge)](LICENSE.md)
+![GitHub Stars](https://img.shields.io/github/stars/littensy/charmed-icons?style=for-the-badge&logo=github)
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+<img src="assets/files.png" alt="Files" width="512" />
+<img src="assets/folders.png" alt="Folders" width="512" />
 
-## For more information
+</div>
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## ⚙️ Usage
 
-**Enjoy!**
+### Marketplace
+
+You can find my icons on the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=littensy.charmed-icons).
+
+### Manual
+
+1. Download the `.vsix` file from the [Releases](https://github.com/littensy/charmed-icons/releases) page.
+2. Open the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P`) in VS Code.
+3. Run the `Extensions: Install from VSIX...` command.
+
+## ❤️ Gratitude
+
+Charmed Icons draws inspiration from:
+
+- [Catppuccin Icons](https://github.com/catppuccin/vscode-icons): Soothing pastel icons for VSCode.
+- [Monospace Theme](https://github.com/keksiqc/monospace-theme): The Monospace Theme from Google's IDX.
+
+---
+
+<p align="center">
+Charmed Icons is released under the <a href="LICENSE.md">MIT License</a>.
+</p>
+
+<div align="center">
+
+[![MIT License](https://img.shields.io/github/license/littensy/charmed-icons?style=for-the-badge)](LICENSE.md)
+
+</div>
