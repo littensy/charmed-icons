@@ -52,6 +52,7 @@
 		"video": { "iconPath": "files/video.svg" },
 		"web-assembly": { "iconPath": "files/web-assembly.svg" },
 		"yaml": { "iconPath": "files/yaml.svg" },
+		"zip": { "iconPath": "files/zip.svg" },
 
 		// Folders
 		"folder-alt": { "iconPath": "folders-alt/folder.svg" },
@@ -214,7 +215,14 @@
 		"tf": "terraform",
 		"hcl": "hcl",
 		"py": "python",
-		"rb": "ruby"
+		"rb": "ruby",
+		"zip": "zip",
+		"tar": "zip",
+		"gz": "zip",
+		"7z": "zip",
+		"rar": "zip",
+		"tgz": "zip",
+		"iso": "zip"
 	},
 	"fileNames": {
 		"eslint.config.js": "eslint",
