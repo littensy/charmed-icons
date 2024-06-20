@@ -3,11 +3,6 @@
 	<img src="assets/icon.png" alt="Logo" width="128" />
   </p>
   <h1 align="center"><b>Charmed Icons</b></h1>
-  <p align="center">
-    A charming set of icons for your Roblox projects.
-    <br />
-    <a href="https://marketplace.visualstudio.com/items?itemName=littensy.charmed-icons"><strong>Marketplace →</strong></a>
-  </p>
 </p>
 
 <div align="center">
