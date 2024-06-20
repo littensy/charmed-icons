@@ -28,6 +28,12 @@ You can find my icons on the [VS Code Marketplace](https://marketplace.visualstu
 2. Open the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P`) in VS Code.
 3. Run the `Extensions: Install from VSIX...` command.
 
+## 🙌 Requests
+
+If you have any icon requests, please [open an issue](https://github.com/littensy/charmed-icons/issues/new) with the `file-icon` or `folder-icon` label.
+
+Ping me on Discord `@littensy` for a quicker response!!
+
 ## ❤️ Gratitude
 
 Charmed Icons draws inspiration from:
