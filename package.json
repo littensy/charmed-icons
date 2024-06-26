@@ -25,7 +25,18 @@
 				"label": "Charmed",
 				"path": "./themes/charmed-icon-theme.json"
 			}
-		]
+		],
+		"configuration": {
+			"type": "object",
+			"title": "Charmed Icons",
+			"properties": {
+				"charmed-icons.hidesExplorerArrows": {
+					"type": "boolean",
+					"default": false,
+					"description": "Hide arrow icons in the explorer section."
+				}
+			}
+		}
 	},
 	"scripts": {
 		"lint": "eslint ."
