@@ -1,7 +1,6 @@
 {
 	"file": "file",
 	"folder": "folder",
-	"hidesExplorerArrows": true,
 	"iconDefinitions": {
 		// Files
 		"audio": { "iconPath": "files/audio.svg" },
