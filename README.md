@@ -30,7 +30,7 @@ You can find my icons on the [VS Code Marketplace](https://marketplace.visualstu
 
 ## 🙌 Requests
 
-If you have any icon requests, please [open an issue](https://github.com/littensy/charmed-icons/issues/new) with the `file-icon` or `folder-icon` label.
+If you have any icon requests, please [open an issue](https://github.com/littensy/charmed-icons/issues/new).
 
 Ping me on Discord `@littensy` for a quicker response!!
 
