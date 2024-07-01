@@ -2,7 +2,6 @@
 	"file": "file",
 	"folder": "folder",
 	"iconDefinitions": {
-		// Files
 		"audio": { "iconPath": "files/audio.svg" },
 		"c": { "iconPath": "files/c.svg" },
 		"config": { "iconPath": "files/config.svg" },
@@ -62,7 +61,6 @@
 		"yaml": { "iconPath": "files/yaml.svg" },
 		"zip": { "iconPath": "files/zip.svg" },
 
-		// Folders
 		"folder-alt": { "iconPath": "folders-alt/folder.svg" },
 		"folder-app-alt": { "iconPath": "folders-alt/app.svg" },
 		"folder-app": { "iconPath": "folders/app.svg" },
@@ -282,6 +280,7 @@
 		".env.production": "config",
 		".env.build": "config",
 		".env.test": "config",
+		".code-snippets": "config",
 		"jest.config.js": "javascript-test",
 		"jest.setup.js": "javascript-test",
 		"jest.config.ts": "typescript-test",
@@ -317,6 +316,8 @@
 		"configs": "folder-config",
 		"configuration": "folder-config",
 		"configurations": "folder-config",
+		"constant": "folder-config",
+		"constants": "folder-config",
 		".vscode": "folder-config",
 		".github": "folder-config",
 		"context": "folder-context",
