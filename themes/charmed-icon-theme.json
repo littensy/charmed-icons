@@ -1,6 +1,7 @@
 {
 	"file": "file",
 	"folder": "folder",
+	"hidesExplorerArrows": true,
 	"iconDefinitions": {
 		// Files
 		"audio": { "iconPath": "files/audio.svg" },
@@ -37,10 +38,10 @@
 		"npm": { "iconPath": "files/npm.svg" },
 		"php": { "iconPath": "files/php.svg" },
 		"python": { "iconPath": "files/python.svg" },
-		"react-typescript": { "iconPath": "files/react-typescript.svg" },
-		"react-typescript-test": { "iconPath": "files/react-typescript-test.svg" },
-		"react": { "iconPath": "files/react.svg" },
 		"react-test": { "iconPath": "files/react-test.svg" },
+		"react-typescript-test": { "iconPath": "files/react-typescript-test.svg" },
+		"react-typescript": { "iconPath": "files/react-typescript.svg" },
+		"react": { "iconPath": "files/react.svg" },
 		"roblox": { "iconPath": "files/roblox.svg" },
 		"ruby": { "iconPath": "files/ruby.svg" },
 		"rust": { "iconPath": "files/rust.svg" },
@@ -57,6 +58,7 @@
 		"typescript-test": { "iconPath": "files/typescript-test.svg" },
 		"typescript": { "iconPath": "files/typescript.svg" },
 		"video": { "iconPath": "files/video.svg" },
+		"vue": { "iconPath": "files/vue.svg" },
 		"web-assembly": { "iconPath": "files/web-assembly.svg" },
 		"yaml": { "iconPath": "files/yaml.svg" },
 		"zip": { "iconPath": "files/zip.svg" },
@@ -251,7 +253,8 @@
 		"7z": "zip",
 		"rar": "zip",
 		"tgz": "zip",
-		"iso": "zip"
+		"iso": "zip",
+		"vue": "vue"
 	},
 	"fileNames": {
 		"eslint.config.js": "eslint",
@@ -272,6 +275,14 @@
 		"LICENSE-MIT": "license",
 		"README": "markdown",
 		".env": "config",
+		".env.example": "config",
+		".env.local": "config",
+		".env.development": "config",
+		".env.testing": "config",
+		".env.staging": "config",
+		".env.production": "config",
+		".env.build": "config",
+		".env.test": "config",
 		"jest.config.js": "javascript-test",
 		"jest.setup.js": "javascript-test",
 		"jest.config.ts": "typescript-test",
