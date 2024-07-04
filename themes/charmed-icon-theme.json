@@ -459,6 +459,7 @@
 	},
 	"light": {
 		"fileExtensions": {
+			"lua": "lua",
 			"luau": "luau"
 		},
 		"folderNames": {
