@@ -1,9 +1,49 @@
-# Change Log
+# Changelog
 
 All notable changes to the "charmed-icons" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [0.5.0] - 2024-07-06
+
+### Added
+
+- Add folder icons `font`, `svg`, `html`, `css`, `globe`, `database`, `schema`
+- Add file icon `svg`
+
+### Changed
+
+- Recolor `dist`, `model`, and `package` folders for better distinction
+- Use more vibrant color blending for foler icons
+- Fix C# icon legibility on non-retina displays
+
+## [0.4.0] - 2024-07-02
+
+### Added
+
+- Include more C/C++ related file extensions
+- Add file icons `assembly`, `binary`, `powershell`
+
+## [0.3.0] - 2024-07-01
+
+### Added
+
+- Add folder icons `command`, `function`, `event`
+- Add file icon `vue`
+- Add aliases to more `env` files
+
+## [0.2.0] - 2024-06-20
+
+### Added
+
+- Add test variants of file icons `typescript`, `javascript`, `react`, and `lua(u)`
+- Add file icon `storybook`
+
+### Removed
+
+- Redundant `bin` folder icon in favor of `script`
+
+## [0.1.0] - 2024-06-19
 
 - Initial release
