@@ -50,6 +50,7 @@
 		"scss": { "iconPath": "files/scss.svg" },
 		"shell": { "iconPath": "files/shell.svg" },
 		"storybook": { "iconPath": "files/storybook.svg" },
+		"svelte": { "iconPath": "files/svelte.svg" },
 		"svg": { "iconPath": "files/svg.svg" },
 		"swift": { "iconPath": "files/swift.svg" },
 		"terraform": { "iconPath": "files/terraform.svg" },
