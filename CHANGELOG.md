@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add folder icons `docs`, `files`, `.lune`
 - Add file icons `vite`, `zig`, `docker`
 - Add aliases to more file and folder icons
+- Redesign `html`, `css`, `json`
 
 ## [0.5.1] - 2024-07-07
 
