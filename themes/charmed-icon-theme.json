@@ -186,6 +186,7 @@
 		"prettierrc.toml": "config",
 		"prettierignore": "config",
 		"lock": "config",
+		"htaccess": "config",	
 		"commitlintrc": "config",
 		"commitlintrc.js": "config",
 		"commitlintrc.cjs": "config",
