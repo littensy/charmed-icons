@@ -67,6 +67,7 @@
 		"yaml": { "iconPath": "files/yaml.svg" },
 		"zig": { "iconPath": "files/zig.svg" },
 		"zip": { "iconPath": "files/zip.svg" },
+		"nix": { "iconPath": "files/nix.svg" },
 
 		"folder-alt": { "iconPath": "folders-alt/folder.svg" },
 		"folder-app-alt": { "iconPath": "folders-alt/app.svg" },
@@ -338,7 +339,8 @@
 		"tgz": "zip",
 		"iso": "zip",
 		"vue": "vue",
-		"zig": "zig"
+		"zig": "zig",
+		"nix": "nix"
 	},
 	"fileNames": {
 		"eslint.config.js": "eslint",
