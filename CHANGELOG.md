@@ -5,6 +5,10 @@ All notable changes to the "charmed-icons" extension will be documented in this 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.7.1] - 2025-05-06
+
+- Add aliases for `spec.x` and `test.x` files
+
 ## [0.7.0] - 2025-05-05
 
 - Add `bun`, `csv`, `database`, `event`, `font`, `svelte`, `tailwind`, `xml` file icons
