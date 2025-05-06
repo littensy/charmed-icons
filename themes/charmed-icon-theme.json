@@ -539,7 +539,9 @@
 		"tailwind.config.mjs": "tailwind",
 		"tailwind.config.ts": "tailwind",
 		"tailwind.config.cts": "tailwind",
-		"tailwind.config.mts": "tailwind"
+		"tailwind.config.mts": "tailwind",
+		"input.css": "tailwind",
+		"output.css": "tailwind"
 	},
 	"folderNames": {
 		"admin": "folder-admin",
