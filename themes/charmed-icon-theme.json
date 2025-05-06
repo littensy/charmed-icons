@@ -1076,6 +1076,7 @@
 			"article": "folder-doc-alt",
 			"articles": "folder-doc-alt",
 			".vitepress": "folder-config-alt",
+			".nuxt": "folder-config-alt",
 			".pesde": "folder-config-alt",
 			".editorconfig": "folder-config-alt",
 			".git": "folder-config-alt",
