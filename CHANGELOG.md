@@ -5,6 +5,16 @@ All notable changes to the "charmed-icons" extension will be documented in this 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.7.0] - 2025-05-05
+
+- Add `bun`, `csv`, `database`, `event`, `font`, `svelte`, `tailwind`, `xml` file icons
+- Add `admin`, `core`, `javascript`, `typescript` folder icons
+- Add `html`, `rust`, `ruby`, `config`, `logic`, `router`, `pesde`, `store` related aliases
+- Redesign test and storybook file/folder icons
+- Change `c`, `h`, `cpp`, `cs` size and lettering
+- Change `audio`, `video`, `image`, `svg` icons to be more similar
+- Adjust `json`, `config`, `text`, `php`, `python`
+
 ## [0.6.1] - 2024-08-29
 
 - Add `styluaignore` file extension
