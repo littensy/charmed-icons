@@ -5,6 +5,16 @@ All notable changes to the "charmed-icons" extension will be documented in this 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.8.0] - 2025-05-11
+
+- Add `go.mod`, `nim`, `astro`, `nix`, `julia`, `next`, `pcss`, `drizzle-orm` file icons
+- Redesign `go` file icon
+- Update `css` file icon to new logo
+- Change sizing of `js`/`ts`/`luau` variants, `java` file icons
+- Change `bun` and `gleam` to look cuter
+- Change `svg` folder color
+- Round text and some sharp corners
+
 ## [0.7.1] - 2025-05-06
 
 - Add aliases for `spec.x` and `test.x` files
