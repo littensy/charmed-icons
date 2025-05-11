@@ -600,7 +600,11 @@
 		".postcssrc.yaml": "pcss",
 		".postcssrc.yml": "pcss",
 		"drizzle.config.ts": "drizzle-orm",
-		"drizzle.config.js": "drizzle-orm"
+		"drizzle.config.js": "drizzle-orm",
+		".nuxtignore": "nuxt",
+		".nuxtrc": "nuxt",
+		"nuxt.config.js": "nuxt",
+		"nuxt.config.ts": "nuxt"
 	},
 	"folderNames": {
 		"admin": "folder-admin",
