@@ -435,6 +435,8 @@
 		"jrxml": "xml",
 		"nim": "nim",
 		"nimble": "nim",
+		"nims": "nim",
+		"paths": "nim",
 		"nix": "nix",
 		"astro": "astro",
 		"jl": "julia",
