@@ -109,7 +109,7 @@
 		"@ctrl/tinycolor": "^4.1.0",
 		"@eslint/js": "^9.27.0",
 		"@types/node": "^22.15.19",
-		"@types/vscode": "^1.100.0",
+		"@types/vscode": "^1.88.0",
 		"@vscode/vsce": "^2.32.0",
 		"defu": "^6.1.4",
 		"eslint": "^9.27.0",
