@@ -1,14 +1,10 @@
-import js from "@eslint/js"; 
-import json from "eslint-plugin-json";
+import config from "@antfu/eslint-config";
 
-export default [
-	js.configs.recommended,
-	{
-		files: ["**/*.json"],
-		plugins: { json },
-		processor: "json/json",
-		"rules": {
-			"json/*": ["error", {"allowComments": true}],
-		},
+export default config({
+	stylistic: {
+		indent: "tab",
+		quotes: "double",
+		semi: true,
 	},
-];
+	typescript: true,
+});

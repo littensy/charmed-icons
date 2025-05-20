@@ -1,40 +1,121 @@
 {
+	"publisher": "littensy",
 	"name": "charmed-icons",
 	"displayName": "Charmed Icons",
-	"description": "💝 Charming icon set for Roblox codebases",
-	"version": "0.8.1",
-	"publisher": "littensy",
-	"icon": "assets/icon.png",
-	"license": "MIT",
 	"type": "module",
-	"packageManager": "pnpm@9.4.0",
+	"version": "0.8.1",
+	"packageManager": "pnpm@10.11.0",
+	"description": "💝 Charming icon set for Roblox codebases",
+	"author": "littensy",
+	"license": "MIT",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/littensy/charmed-icons"
 	},
-	"engines": {
-		"vscode": "^1.88.0"
+	"bugs": {
+		"url": "https://github.com/littensy/charmed-icons/issues"
 	},
+	"keywords": [
+		"charmed",
+		"theme",
+		"roblox",
+		"vscode-theme",
+		"vscode-icons"
+	],
 	"categories": [
 		"Themes"
 	],
+	"main": "dist/main.cjs",
+	"icon": "assets/icon.png",
+	"extensionKind": [
+		"ui",
+		"workspace"
+	],
+	"engines": {
+		"vscode": "^1.88.0",
+		"node": ">=20.0.0"
+	},
+	"activationEvents": [
+		"onStartupFinished"
+	],
 	"contributes": {
+		"configuration": {
+			"title": "Charmed Icons",
+			"properties": {
+				"charmed-icons.hidesExplorerArrows": {
+					"type": "boolean",
+					"default": false,
+					"description": "Hides arrows next to folders in the explorer."
+				},
+				"charmed-icons.expandedFolders": {
+					"type": "boolean",
+					"default": true,
+					"description": "Display special icons for expanded folders."
+				},
+				"charmed-icons.associations.languages": {
+					"type": "object",
+					"default": {},
+					"description": "Custom languageId/icon associations."
+				},
+				"charmed-icons.associations.extensions": {
+					"type": "object",
+					"default": {},
+					"description": "Custom fileExtension/icon associations."
+				},
+				"charmed-icons.associations.files": {
+					"type": "object",
+					"default": {},
+					"description": "Custom fileName/icon associations."
+				},
+				"charmed-icons.associations.folders": {
+					"type": "object",
+					"default": {},
+					"description": "Custom folderName/icon associations."
+				}
+			}
+		},
 		"iconThemes": [
 			{
 				"id": "charmed-icons",
 				"label": "Charmed",
-				"path": "./themes/charmed-icon-theme.json"
+				"path": "./dist/themes/base/theme.json"
+			},
+			{
+				"id": "charmed-light",
+				"label": "Charmed Light",
+				"path": "./dist/themes/light/theme.json"
+			},
+			{
+				"id": "charmed-soft",
+				"label": "Charmed Soft",
+				"path": "./dist/themes/soft/theme.json"
+			},
+			{
+				"id": "charmed-warm",
+				"label": "Charmed Warm",
+				"path": "./dist/themes/warm/theme.json"
 			}
 		]
 	},
 	"scripts": {
 		"lint": "eslint .",
-		"pack": "vsce pack --no-dependencies"
+		"pack": "vsce pack --no-dependencies",
+		"build": "tsup src/main.ts --external vscode --shims",
+		"generate": "tsx scripts/generate",
+		"typecheck": "tsc"
 	},
 	"devDependencies": {
-		"@eslint/js": "^9.6.0",
-		"@vscode/vsce": "^2.29.0",
-		"eslint": "^9.6.0",
-		"eslint-plugin-json": "^4.0.0"
+		"@antfu/eslint-config": "^4.13.1",
+		"@ctrl/tinycolor": "^4.1.0",
+		"@eslint/js": "^9.27.0",
+		"@types/node": "^22.15.19",
+		"@types/vscode": "^1.100.0",
+		"@vscode/vsce": "^2.32.0",
+		"defu": "^6.1.4",
+		"eslint": "^9.27.0",
+		"eslint-plugin-json": "^4.0.1",
+		"tsup": "^8.5.0",
+		"tsx": "^4.19.4",
+		"typescript": "^5.8.3"
 	}
 }
