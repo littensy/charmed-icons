@@ -3,9 +3,11 @@ import { defu } from "defu";
 import { defaultConfig } from "./defaults";
 
 export function createTheme(overrides: Partial<Config>, iconDefinitions: IconDefinitions): VscTheme {
-	const { associations, expandedFolders, hidesExplorerArrows } = defu(overrides, defaultConfig);
-
-	const folderNamesExpanded = expandedFolders ? expanded(associations.folderNames) : associations.folderNames;
+	const {
+		associations,
+		expandedFolders,
+		hidesExplorerArrows,
+	} = defu(overrides, defaultConfig);
 
 	return {
 		hidesExplorerArrows,
@@ -21,7 +23,7 @@ export function createTheme(overrides: Partial<Config>, iconDefinitions: IconDef
 		fileNames: associations.fileNames,
 
 		folderNames: associations.folderNames,
-		folderNamesExpanded,
+		folderNamesExpanded: expandedFolders ? expanded(associations.folderNames) : associations.folderNames,
 
 		iconDefinitions,
 	};
