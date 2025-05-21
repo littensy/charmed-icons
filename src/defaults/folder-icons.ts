@@ -60,7 +60,7 @@ export const folderIcons: FolderIcons = {
 		".wxt",
 	],
 	connection: ["connection", "api", "apis", "connections", "integration", "integrations"],
-	constant: ["constant", "constants", "const"],
+	constant: ["constant", "constants", "const", "enum", "enums"],
 	content: ["content", "contents", "storage", "data"],
 	context: ["context", "contexts"],
 	coverage: ["coverage", "audit", "audits", ".nyc-output", ".nyc_output", "e2e", "it", "integration-test", "integration-tests", "__integration-test__", "__integration-tests__"],
