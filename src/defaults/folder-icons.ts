@@ -6,9 +6,9 @@ interface FolderIcons {
 export const folderIcons: FolderIcons = {
 	admin: ["admin", "admins", "manager", "managers", "moderator", "moderators", "moderation"],
 	animation: ["animation", "animations", "anim", "anims", "animated"],
-	assets: ["asset", "assets"],
+	assets: [],
 	audio: ["audio", "audios", "sound", "sounds", "music", "aud", "auds"],
-	auth: ["auth", "authentication", "auths", "authenticator", "authenticators"],
+	auth: ["auth", "authentication", "auths", "authenticator", "authenticators", "security"],
 	benchmark: ["benchmark", "benchmarks", "bench", "benches", "benchs", "performance", "measure", "measures", "measurement"],
 	bin: ["binaries", "binary"],
 	builder: ["builder", "builders", "factory", "factories", "constructor", "constructors"],
@@ -89,6 +89,8 @@ export const folderIcons: FolderIcons = {
 	github: ["github", ".github", ".git", "patches", "githooks", ".githooks"],
 	hooks: ["hooks", "hook", "composables", "composable"],
 	image: [
+		"asset",
+		"assets",
 		"image",
 		"_images",
 		"_image",
