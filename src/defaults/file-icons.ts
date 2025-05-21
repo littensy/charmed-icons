@@ -208,6 +208,7 @@ export const fileIcons: FileIcons = {
 		extensions: ["pdb", "sql", "pks", "pkb", "accdb", "mdb", "sqlite", "sqlite3", "pgsql", "postgres", "plpgsql", "psql", "db", "db3", "dat"],
 	},
 	"docker": {
+		languages: ["dockerfile", "dockercompose"],
 		extensions: [
 			"dockerfile",
 			"containerfile",
@@ -466,12 +467,12 @@ export const fileIcons: FileIcons = {
 		extensions: ["esx", "js", "cjs", "mjs"],
 	},
 	"json": {
-		languages: ["hjson"],
+		languages: ["json", "jsonl", "jsonc", "hjson", "snippets"],
 		extensions: ["json", "jsonc", "tsbuildinfo", "json5", "jsonl", "ndjson", "hjson", "webmanifest", "code-snippets"],
 		names: [".jscsrc", ".jshintrc", "composer.lock", ".jsbeautifyrc", ".esformatter", "cdp.pid", ".lintstagedrc", ".whitesource"],
 	},
 	"julia": {
-		languages: ["julia"],
+		languages: ["julia", "juliamarkdown"],
 		extensions: ["jl"],
 	},
 	"kotlin": {
@@ -892,6 +893,7 @@ export const fileIcons: FileIcons = {
 		extensions: ["wasm", "wat"],
 	},
 	"xml": {
+		languages: ["xml"],
 		extensions: [
 			"xml",
 			"plist",
