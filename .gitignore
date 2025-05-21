@@ -2,3 +2,4 @@
 *.vsix
 /test
 /dist
+.DS_Store
