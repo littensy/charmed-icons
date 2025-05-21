@@ -25,9 +25,18 @@ jobs:
       - name: Lint files
         run: pnpm lint
 
+      - name: Typecheck
+        run: pnpm typecheck
+
+      - name: Build extension
+        run: pnpm build
+
+      - name: Generate icon variants
+        run: pnpm generate
+
       - name: Package extension
-        uses: haaleo/publish-vscode-extension@v1
+        uses: haaleo/publish-vscode-extension@v2
         with:
           pat: _
-          dependencies: false
           dryRun: true
+          dependencies: false

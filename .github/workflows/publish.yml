@@ -25,23 +25,32 @@ jobs:
       - name: Lint files
         run: pnpm lint
 
-      - name: Package extension
-        uses: haaleo/publish-vscode-extension@v1
+      - name: Typecheck
+        run: pnpm typecheck
+
+      - name: Build extension
+        run: pnpm build
+
+      - name: Generate icon variants
+        run: pnpm generate
+
+      - name: Publish to Visual Studio Marketplace
+        uses: HaaLeo/publish-vscode-extension@v2
         id: package
         with:
-          pat: _
+          pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}
+          registryUrl: https://marketplace.visualstudio.com
           dependencies: false
-          dryRun: true
 
       - uses: abutler/upload-release-assets@v3.0
         with:
           files: ${{ steps.package.outputs.vsixPath }}
           repo-token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Publish to Visual Studio Marketplace
-        uses: haaleo/publish-vscode-extension@v1
+      - name: Publish to Open VSX Registry
+        uses: HaaLeo/publish-vscode-extension@v2
+        continue-on-error: true
+        timeout-minutes: 10
         with:
-          pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}
+          pat: ${{ secrets.OPEN_VSX_TOKEN }}
           extensionFile: ${{ steps.package.outputs.vsixPath }}
-          registryUrl: https://marketplace.visualstudio.com
-          dependencies: false

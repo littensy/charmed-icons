@@ -28,6 +28,55 @@ You can find my icons on the [VS Code Marketplace](https://marketplace.visualstu
 2. Open the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P`) in VS Code.
 3. Run the `Extensions: Install from VSIX...` command.
 
+## 🎨 Customization
+
+### Settings
+
+You can customize the icon theme with the following settings:
+
+```jsonc
+{
+	// Set to `true` to disable folding arrows next to folder icons.
+	"charmed-icons.hidesExplorerArrows": false,
+
+	// Set to `when-expanded` to use outlines when the folder is expanded.
+	// Set to `always` to always use outlined folder icons.
+	// Set to `never` to always use filled folder icons.
+	"charmed-icons.outlinedFolders": "when-expanded"
+}
+```
+
+### Custom icon associations
+
+Charmed Icons also supports custom icon associations (thanks to [Catppuccin Icons](https://github.com/catppuccin/vscode-icons/tree/main?tab=readme-ov-file#custom-icon-associations)):
+
+```jsonc
+{
+	// Files with the language type `typescriptreact` will have the `react-typescript` icon.
+	"charmed-icons.associations.languages": {
+		"typescriptreact": "react-typescript"
+	},
+
+	// Files with the `spec.ts` extension will have the `test-blue` icon.
+	"charmed-icons.associations.extensions": {
+		"spec.ts": "test-blue"
+	},
+
+	// Files with the name `vite.config.ts` will have the `vite` icon.
+	"charmed-icons.associations.files": {
+		"vite.config.ts": "vite"
+	},
+
+	// Folders with the name `typings/` will have the `folder_types` icon.
+	"charmed-icons.associations.folders": {
+		"typings": "folder_types"
+	}
+}
+```
+
+> [!NOTE]
+> See [`./icons`](./icons) for a list of available icons.
+
 ## 🙌 Requests
 
 If you have any icon requests, please [open an issue](https://github.com/littensy/charmed-icons/issues/new).

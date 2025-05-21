@@ -5,6 +5,20 @@ All notable changes to the "charmed-icons" extension will be documented in this 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.9.0] - 2025-05-20
+
+- Add setting `charmed-icons.hidesExplorerArrows` to hide the arrows next to folder icons
+- Add setting `charmed-icons.outlinedFolders` to control the outline style of folder icons
+- Add association settings for custom icon associations (see [README](https://github.com/littensy/charmed-icons) for details)
+  - `charmed-icons.associations.languages`: Custom languageId/icon associations.
+  - `charmed-icons.associations.extensions`: Custom fileExtension/icon associations.
+  - `charmed-icons.associations.files`: Custom fileName/icon associations.
+  - `charmed-icons.associations.folders`: Custom folderName/icon associations.
+- Add `Light`, `Soft`, and `Warm` icon variants
+- Add `yarn`, `yarn-lock`, `readme`, `todo`, `changelog`, `codeowners`, `code-of-conduct`, `security` file icons
+- Add and redesign dozens of new folder icons
+- Adjust colors to be more vibrant and distinct
+
 ## [0.8.2] - 2025-05-11
 
 - Add other `nim` aliases
@@ -67,7 +81,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Recolor `dist`, `model`, and `package` folders for better distinction
-- Use more vibrant color blending for foler icons
+- Use more vibrant color blending for folder icons
 - Fix C# icon legibility on non-retina displays
 
 ## [0.4.0] - 2024-07-02
