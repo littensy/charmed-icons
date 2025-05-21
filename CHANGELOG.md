@@ -5,6 +5,13 @@ All notable changes to the "charmed-icons" extension will be documented in this 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.9.1] - 2025-05-21
+
+- Add unused `assets` folder icon if you'd like to use the old one
+- Recolor some file and folder icons
+- Recolor `Soft` variant to be similar to colors prior to `0.9.0`
+- Rename `store` to `model` and assign it to `model(s)`
+
 ## [0.9.0] - 2025-05-20
 
 - Add setting `charmed-icons.hidesExplorerArrows` to hide the arrows next to folder icons
