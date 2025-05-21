@@ -121,7 +121,7 @@ export const folderIcons: FolderIcons = {
 		"photographs",
 	],
 	input: ["input", "inputs", "device", "devices", "sensor", "sensors"],
-	javascript: ["javascript", "js"],
+	javascript: ["javascript", "js", "cjs", "esm"],
 	json: ["json", "schema", "schemas"],
 	layout: ["layout", "layouts", "_layouts", "ui", "uis", "interface", "screen", "screens"],
 	lib: ["lib", "libs", "library", "libraries"],
