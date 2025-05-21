@@ -34,7 +34,7 @@ You can find my icons on the [VS Code Marketplace](https://marketplace.visualstu
 
 You can customize the icon theme with the following settings:
 
-```json
+```jsonc
 {
 	// Set to `true` to disable folding arrows next to folder icons.
 	"charmed-icons.hidesExplorerArrows": false,
@@ -50,7 +50,7 @@ You can customize the icon theme with the following settings:
 
 Charmed Icons also supports custom icon associations (thanks to [Catppuccin Icons](https://github.com/catppuccin/vscode-icons/tree/main?tab=readme-ov-file#custom-icon-associations)):
 
-```json
+```jsonc
 {
 	// Files with the language type `typescriptreact` will have the `react-typescript` icon.
 	"charmed-icons.associations.languages": {
