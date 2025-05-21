@@ -60,7 +60,7 @@
 						"Show outlined folder icons when the folder is expanded.",
 						"Never show outlined folder icons."
 					],
-					"description": "When to display outlined folder icons."
+					"description": "Control the outline style of folder icons."
 				},
 				"charmed-icons.associations.languages": {
 					"type": "object",
