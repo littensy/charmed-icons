@@ -6,6 +6,7 @@ interface FolderIcons {
 export const folderIcons: FolderIcons = {
 	admin: ["admin", "admins", "manager", "managers", "moderator", "moderators", "moderation"],
 	animation: ["animation", "animations", "anim", "anims", "animated"],
+	assets: ["asset", "assets"],
 	audio: ["audio", "audios", "sound", "sounds", "music", "aud", "auds"],
 	auth: ["auth", "authentication", "auths", "authenticator", "authenticators"],
 	benchmark: ["benchmark", "benchmarks", "bench", "benches", "benchs", "performance", "measure", "measures", "measurement"],
@@ -61,7 +62,7 @@ export const folderIcons: FolderIcons = {
 	],
 	connection: ["connection", "api", "apis", "connections", "integration", "integrations"],
 	constant: ["constant", "constants", "const", "enum", "enums"],
-	content: ["content", "contents", "storage", "data"],
+	content: ["content", "contents", "storage"],
 	context: ["context", "contexts"],
 	coverage: ["coverage", "audit", "audits", ".nyc-output", ".nyc_output", "e2e", "it", "integration-test", "integration-tests", "__integration-test__", "__integration-tests__"],
 	database: [
@@ -69,6 +70,7 @@ export const folderIcons: FolderIcons = {
 		"databases",
 		"db",
 		"sql",
+		"data",
 		"_data",
 		"datastore",
 		"datastores",
@@ -88,8 +90,6 @@ export const folderIcons: FolderIcons = {
 	hooks: ["hooks", "hook", "composables", "composable"],
 	image: [
 		"image",
-		"asset",
-		"assets",
 		"_images",
 		"_image",
 		"_imgs",
@@ -120,12 +120,13 @@ export const folderIcons: FolderIcons = {
 	],
 	input: ["input", "inputs", "device", "devices", "sensor", "sensors"],
 	javascript: ["javascript", "js"],
-	json: ["json", "schema", "schemas", "model", "models"],
+	json: ["json", "schema", "schemas"],
 	layout: ["layout", "layouts", "_layouts", "ui", "uis", "interface", "screen", "screens"],
 	lib: ["lib", "libs", "library", "libraries"],
 	lune: ["lune", ".lune", "lute", ".lute", "luau", ".pesde"],
 	marketing: ["marketing", "product", "products", "passes", "gamepasses", "game-passes"],
 	middleware: ["middleware", "middlewares", "core", "system", "systems"],
+	model: ["model", "models", "redux", "rodux", "reflex"],
 	module: [
 		"module",
 		"modules",
@@ -178,7 +179,6 @@ export const folderIcons: FolderIcons = {
 		"workflows",
 	],
 	source: ["source", "sources", "src", "srcs", "code", "src-tauri"],
-	store: ["redux", "rodux", "reflex"],
 	storybook: ["storybook", ".storybook", "stories", "__stories__"],
 	styles: [
 		"styles",

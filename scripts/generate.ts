@@ -5,7 +5,7 @@ import { join, parse } from "node:path";
 import { TinyColor } from "@ctrl/tinycolor";
 import { IconVariant } from "~/constants";
 import { createTheme } from "~/themes";
-import { basePalette, lightPalette } from "./palettes";
+import { basePalette, lightPalette, softPalette } from "./palettes";
 
 const iconFilenames = await readdir("icons");
 
@@ -42,12 +42,11 @@ async function createThemeFiles() {
 	}, {});
 
 	const iconDefinitionsJson = JSON.stringify(iconDefinitions);
+	const baseThemeJson = JSON.stringify(createTheme({}, iconDefinitions));
 
 	for (const variant of Object.values(IconVariant)) {
-		const theme = createTheme({}, iconDefinitions);
-
 		await writeFile(join("dist", "themes", variant, "iconDefinitions.json"), iconDefinitionsJson, "utf-8");
-		await writeFile(join("dist", "themes", variant, "theme.json"), JSON.stringify(theme), "utf-8");
+		await writeFile(join("dist", "themes", variant, "theme.json"), baseThemeJson, "utf-8");
 	}
 }
 
@@ -60,13 +59,8 @@ function createPalette(colorProcessor: (color: string) => string) {
 
 await Promise.all([
 	generateIconVariant(IconVariant.Base, basePalette),
-
 	generateIconVariant(IconVariant.Light, lightPalette),
-
-	generateIconVariant(IconVariant.Soft, createPalette((color) => {
-		return new TinyColor(color).lighten(3).toHexString();
-	})),
-
+	generateIconVariant(IconVariant.Soft, softPalette),
 	generateIconVariant(IconVariant.Warm, createPalette((color) => {
 		return new TinyColor(color).mix("#ff4400", 7).toHexString();
 	})),
