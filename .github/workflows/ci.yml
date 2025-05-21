@@ -39,3 +39,4 @@ jobs:
         with:
           pat: _
           dryRun: true
+          dependencies: false

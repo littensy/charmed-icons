@@ -67,7 +67,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Recolor `dist`, `model`, and `package` folders for better distinction
-- Use more vibrant color blending for foler icons
+- Use more vibrant color blending for folder icons
 - Fix C# icon legibility on non-retina displays
 
 ## [0.4.0] - 2024-07-02

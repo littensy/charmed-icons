@@ -5,25 +5,27 @@ import { defaultConfig } from "./defaults";
 export function createTheme(overrides: Partial<Config>, iconDefinitions: IconDefinitions): VscTheme {
 	const {
 		associations,
-		expandedFolders,
+		outlineFolders,
 		hidesExplorerArrows,
 	} = defu(overrides, defaultConfig);
+
+	const folderNamesExpanded = outlineFolders !== "never" ? expanded(associations.folderNames) : associations.folderNames;
 
 	return {
 		hidesExplorerArrows,
 
 		file: "_file",
-		folder: "_folder",
-		folderExpanded: expandedFolders ? "_folder_open" : "_folder",
-		rootFolder: "_folder",
-		rootFolderExpanded: expandedFolders ? "_folder_open" : "_folder",
+		folder: outlineFolders === "always" ? "_folder_open" : "_folder",
+		folderExpanded: outlineFolders !== "never" ? "_folder_open" : "_folder",
+		rootFolder: outlineFolders === "always" ? "folder_source_open" : "folder_source",
+		rootFolderExpanded: outlineFolders !== "never" ? "folder_source_open" : "folder_source",
 
 		languageIds: associations.languageIds,
 		fileExtensions: associations.fileExtensions,
 		fileNames: associations.fileNames,
 
-		folderNames: associations.folderNames,
-		folderNamesExpanded: expandedFolders ? expanded(associations.folderNames) : associations.folderNames,
+		folderNames: outlineFolders === "always" ? folderNamesExpanded : associations.folderNames,
+		folderNamesExpanded,
 
 		iconDefinitions,
 	};

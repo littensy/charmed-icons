@@ -9,7 +9,7 @@ export function getConfig(): Partial<Config> {
 
 	return {
 		hidesExplorerArrows: config.get(ConfigKey.HidesExplorerArrows),
-		expandedFolders: config.get(ConfigKey.ExpandedFolders),
+		outlineFolders: config.get(ConfigKey.OutlineFolders),
 		associations: {
 			languageIds: config.get(ConfigKey.AssociationsLanguages, {}),
 			fileExtensions: config.get(ConfigKey.AssociationsExtensions, {}),

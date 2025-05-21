@@ -64,7 +64,7 @@ await Promise.all([
 	generateIconVariant(IconVariant.Light, lightPalette),
 
 	generateIconVariant(IconVariant.Soft, createPalette((color) => {
-		return new TinyColor(color).lighten(7).toHexString();
+		return new TinyColor(color).lighten(3).toHexString();
 	})),
 
 	generateIconVariant(IconVariant.Warm, createPalette((color) => {

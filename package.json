@@ -47,10 +47,20 @@
 					"default": false,
 					"description": "Hides arrows next to folders in the explorer."
 				},
-				"charmed-icons.expandedFolders": {
-					"type": "boolean",
-					"default": true,
-					"description": "Display special icons for expanded folders."
+				"charmed-icons.outlineFolders": {
+					"type": "string",
+					"default": "when-expanded",
+					"enum": [
+						"always",
+						"when-expanded",
+						"never"
+					],
+					"enumDescriptions": [
+						"Always show outlined folder icons.",
+						"Show outlined folder icons when the folder is expanded.",
+						"Never show outlined folder icons."
+					],
+					"description": "When to display outlined folder icons."
 				},
 				"charmed-icons.associations.languages": {
 					"type": "object",
@@ -107,13 +117,11 @@
 	"devDependencies": {
 		"@antfu/eslint-config": "^4.13.1",
 		"@ctrl/tinycolor": "^4.1.0",
-		"@eslint/js": "^9.27.0",
 		"@types/node": "^22.15.19",
 		"@types/vscode": "^1.88.0",
 		"@vscode/vsce": "^2.32.0",
 		"defu": "^6.1.4",
 		"eslint": "^9.27.0",
-		"eslint-plugin-json": "^4.0.1",
 		"tsup": "^8.5.0",
 		"tsx": "^4.19.4",
 		"typescript": "^5.8.3"

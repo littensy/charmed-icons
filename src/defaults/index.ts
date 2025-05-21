@@ -7,7 +7,7 @@ export * from "./folder-icons";
 
 export const defaultConfig: Config = {
 	hidesExplorerArrows: false,
-	expandedFolders: true,
+	outlineFolders: "when-expanded",
 	associations: {
 		languageIds,
 		fileExtensions,

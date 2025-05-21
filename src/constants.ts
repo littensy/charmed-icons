@@ -2,7 +2,7 @@ export const CONFIG_ROOT = "charmed-icons" as const;
 
 export enum ConfigKey {
 	HidesExplorerArrows = "hidesExplorerArrows",
-	ExpandedFolders = "expandedFolders",
+	OutlineFolders = "outlineFolders",
 	AssociationsLanguages = "associations.languages",
 	AssociationsExtensions = "associations.extensions",
 	AssociationsFiles = "associations.files",

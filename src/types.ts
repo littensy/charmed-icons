@@ -1,6 +1,6 @@
 export interface Config {
 	hidesExplorerArrows: boolean;
-	expandedFolders: boolean;
+	outlineFolders: "when-expanded" | "always" | "never";
 	associations: {
 		languageIds: Record<string, string>;
 		fileExtensions: Record<string, string>;
