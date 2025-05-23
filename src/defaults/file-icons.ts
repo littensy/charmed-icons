@@ -21,7 +21,7 @@ export const fileIcons: FileIcons = {
 	},
 	"binary": {
 		languages: ["code-text-binary"],
-		extensions: ["bin", "exe", "msi", "dll", "pdb", "lib", "so", "dylib", "o", "obj", "a"],
+		extensions: ["bin", "exe", "msi", "dll", "lib", "so", "dylib", "o", "obj", "a"],
 	},
 	"bun": {
 		names: ["bun.lock", "bun.lockb", "bunfig.toml"],
