@@ -111,13 +111,15 @@
 		"lint": "eslint .",
 		"pack": "vsce pack --no-dependencies",
 		"build": "tsup src/main.ts --external vscode --shims",
+		"clean": "rm -rf dist",
 		"generate": "tsx scripts/generate",
+		"check-duplicates": "tsx scripts/duplicates",
 		"typecheck": "tsc"
 	},
 	"devDependencies": {
-		"@antfu/eslint-config": "^4.13.1",
+		"@antfu/eslint-config": "^4.13.2",
 		"@ctrl/tinycolor": "^4.1.0",
-		"@types/node": "^22.15.19",
+		"@types/node": "^22.15.21",
 		"@types/vscode": "^1.88.0",
 		"@vscode/vsce": "^2.32.0",
 		"defu": "^6.1.4",

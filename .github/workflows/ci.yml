@@ -28,6 +28,9 @@ jobs:
       - name: Typecheck
         run: pnpm typecheck
 
+      - name: Check duplicates
+        run: pnpm check-duplicates
+
       - name: Build extension
         run: pnpm build
 
