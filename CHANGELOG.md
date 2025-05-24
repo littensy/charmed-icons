@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add files `package-config`, `package-lock`, `wally`, `wally-lock`, `lock`
 - Add more variants for files `lua`, `astro`, `rust`, `roblox`
 - Add folders `vscode`, `luau`
+- Add `c-header`, `cpp-header`, remove `h`
 - Redesign folders `template`, `model`, `storybook`, `image`
 - Adjust folder `src` to look sharper on some displays
 - Adjust `luau-config` to make it look like its eating
