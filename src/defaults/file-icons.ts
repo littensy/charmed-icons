@@ -388,11 +388,14 @@ export const fileIcons: FileIcons = {
 		extensions: ["go", "tmpl", "templ", "gotmpl", "gohtml", "go.tmp", "go.html"],
 	},
 	"h": {
-		extensions: ["h", "hh", "hpp", "hxx", "h++", "hp", "tcc", "inl"],
+		extensions: ["h", "inl"],
 	},
 	"hcl": {
 		languages: ["hcl"],
 		extensions: ["hcl"],
+	},
+	"hpp": {
+		extensions: ["hh", "hpp", "hxx", "h++", "hp", "tcc"],
 	},
 	"html": {
 		languages: ["html"],
