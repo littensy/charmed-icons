@@ -31,6 +31,9 @@ export const fileIcons: FileIcons = {
 	"bun": {
 		names: ["bunfig.toml"],
 	},
+	"c-header": {
+		extensions: ["h"],
+	},
 	"c": {
 		languages: ["c"],
 		extensions: ["c", "i", "mi"],
@@ -175,6 +178,9 @@ export const fileIcons: FileIcons = {
 			".prettierrc.mjs",
 			".prettierignore",
 		],
+	},
+	"cpp-header": {
+		extensions: ["hh", "hpp", "hxx", "h++", "hp", "tcc", "inl"],
 	},
 	"cpp": {
 		languages: ["cpp"],
@@ -393,9 +399,6 @@ export const fileIcons: FileIcons = {
 	"godot": {
 		languages: ["gdscript"],
 		extensions: ["gd"],
-	},
-	"h": {
-		extensions: ["h", "hh", "hpp", "hxx", "h++", "hp", "tcc", "inl"],
 	},
 	"hcl": {
 		languages: ["hcl"],
