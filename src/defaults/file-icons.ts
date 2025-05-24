@@ -11,10 +11,12 @@ export const fileIcons: FileIcons = {
 	"assembly": {
 		extensions: ["asm", "a51", "inc", "nasm", "s", "ms", "agc", "ags", "aea", "argus", "mitigus", "binsource"],
 	},
+	"astro-config": {
+		names: ["astro.config.js", "astro.config.mjs", "astro.config.cjs", "astro.config.ts", "astro.config.cts", "astro.config.mts"],
+	},
 	"astro": {
 		languages: ["astro"],
 		extensions: ["astro"],
-		names: ["astro.config.js", "astro.config.mjs", "astro.config.cjs", "astro.config.ts", "astro.config.cts", "astro.config.mts"],
 	},
 	"audio": {
 		extensions: ["aac", "aiff", "alac", "flac", "m4a", "m4p", "mogg", "mp3", "oga", "opus", "wav", "wma", "wv", "mid", "midi"],
@@ -23,8 +25,11 @@ export const fileIcons: FileIcons = {
 		languages: ["code-text-binary"],
 		extensions: ["bin", "exe", "msi", "dll", "lib", "so", "dylib", "o", "obj", "a"],
 	},
+	"bun-lock": {
+		names: ["bun.lock", "bun.lockb"],
+	},
 	"bun": {
-		names: ["bun.lock", "bun.lockb", "bunfig.toml"],
+		names: ["bunfig.toml"],
 	},
 	"c": {
 		languages: ["c"],
@@ -66,7 +71,6 @@ export const fileIcons: FileIcons = {
 			"spring-boot-properties",
 		],
 		extensions: [
-			"config",
 			"config.json",
 			"config.yaml",
 			"config.yml",
@@ -77,10 +81,6 @@ export const fileIcons: FileIcons = {
 			"config.ts",
 			"config.lua",
 			"config.luau",
-			// TODO: design icons for these
-			"lock",
-			"env",
-			"envrc",
 			"ini",
 			"dlc",
 			"config",
@@ -94,6 +94,9 @@ export const fileIcons: FileIcons = {
 			"sln.dotsettings",
 			"sln.dotsettings.user",
 			"cfg",
+			// TODO: design icons for these
+			"env",
+			"envrc",
 		],
 		names: [
 			// TODO: design icons for these
@@ -101,8 +104,6 @@ export const fileIcons: FileIcons = {
 			".cspell.json",
 			"biome.json",
 			"biome.jsonc",
-			"cargo.lock",
-			"cargo.toml",
 			".commitlintrc",
 			".commitlintrc.js",
 			".commitlintrc.cjs",
@@ -113,8 +114,6 @@ export const fileIcons: FileIcons = {
 			".commitlintrc.yml",
 			".commitlint.yaml",
 			".commitlint.yml",
-			"deno.json",
-			"deno.jsonc",
 			".editorconfig",
 			".env.defaults",
 			".env.example",
@@ -175,12 +174,6 @@ export const fileIcons: FileIcons = {
 			".prettierrc.toml",
 			".prettierrc.mjs",
 			".prettierignore",
-			"rustfmt.toml",
-			".rustfmt.toml",
-			"rust-toolchain.toml",
-			"clippy.toml",
-			".vscodeignore",
-			".styluaignore",
 		],
 	},
 	"cpp": {
@@ -189,7 +182,7 @@ export const fileIcons: FileIcons = {
 	},
 	"cs": {
 		languages: ["csharp"],
-		extensions: ["cs", "csx", "csharp", "csproj"],
+		extensions: ["cs", "csx", "csharp"],
 	},
 	"css": {
 		languages: ["css"],
@@ -350,6 +343,12 @@ export const fileIcons: FileIcons = {
 	"font": {
 		extensions: ["woff", "woff2", "ttf", "eot", "suit", "otf", "bmap", "fnt", "odttf", "ttc", "font", "fonts", "sui", "ntf", "mrf"],
 	},
+	"fortran-fixed": {
+		extensions: ["f", "for", "f77"],
+	},
+	"fortran": {
+		extensions: ["f90", "f95", "f03", "f08"],
+	},
 	"git": {
 		languages: ["git", "git-commit", "git-rebase", "ignore"],
 		extensions: ["patch", "gitlab-ci.yml", "gitlab-ci.yaml"],
@@ -386,6 +385,14 @@ export const fileIcons: FileIcons = {
 	"go": {
 		languages: ["go"],
 		extensions: ["go", "tmpl", "templ", "gotmpl", "gohtml", "go.tmp", "go.html"],
+	},
+	"godot-assets": {
+		extensions: ["godot", "tres", "tscn", "gdns", "gdnlib", "gdshader", "gdshaderinc", "gdextension"],
+		names: [".gdignore", "._sc_", "_sc_"],
+	},
+	"godot": {
+		languages: ["gdscript"],
+		extensions: ["gd"],
 	},
 	"h": {
 		extensions: ["h", "hh", "hpp", "hxx", "h++", "hp", "tcc", "inl"],
@@ -468,15 +475,27 @@ export const fileIcons: FileIcons = {
 	},
 	"json": {
 		languages: ["json", "jsonl", "jsonc", "hjson", "snippets"],
-		extensions: ["json", "jsonc", "tsbuildinfo", "json5", "jsonl", "ndjson", "hjson", "webmanifest", "code-snippets"],
-		names: [".jscsrc", ".jshintrc", "composer.lock", ".jsbeautifyrc", ".esformatter", "cdp.pid", ".lintstagedrc", ".whitesource"],
+		extensions: ["json", "jsonc", "tsbuildinfo", "json5", "jsonl", "ndjson", "hjson", "webmanifest"],
+		names: [".jscsrc", ".jshintrc", ".jsbeautifyrc", ".esformatter", "cdp.pid", ".lintstagedrc", ".whitesource"],
 	},
 	"julia": {
 		languages: ["julia", "juliamarkdown"],
 		extensions: ["jl"],
 	},
+	"just": {
+		extensions: ["just"],
+		names: ["justfile", ".justfile"],
+	},
+	"key": {
+		extensions: ["pub", "key", "pem", "asc", "gpg", "passwd", "keystore"],
+		names: [".htpasswd"],
+	},
 	"kotlin": {
 		extensions: ["kt", "kts"],
+	},
+	"latex": {
+		languages: ["tex", "doctex", "latex", "latex-expl3"],
+		extensions: ["tex", "sty", "dtx", "ltx"],
 	},
 	"license": {
 		extensions: ["cer", "cert", "crt", "pfx"],
@@ -513,24 +532,60 @@ export const fileIcons: FileIcons = {
 			"licence.txt",
 		],
 	},
+	"lock": {
+		extensions: ["lock"],
+	},
+	"lua-config": {
+		names: [
+			".luacheckrc",
+			".styluaignore",
+			"stylua.toml",
+			"selene.toml",
+			"selene_defs.yml",
+			"selene_defs.yaml",
+			"selene_definitions.yml",
+			"selene_definitions.yaml",
+			"selene-definitions.yml",
+			"selene-definitions.yaml",
+			"testez.yml",
+			"testez.yaml",
+			"roblox.yml",
+			"roblox.yaml",
+			"js-to-lua.config.js",
+			"darklua.json",
+			".darklua.json",
+			".darklua-dev.json",
+			".darklua-tests.json",
+			".darklua-wally.json",
+			".darklua-bundle.json",
+			".darklua-bundle-dev.json",
+		],
+	},
 	"lua": {
 		languages: ["lua"],
 		extensions: ["lua"],
-		names: [".luacheckrc"],
 	},
 	"luau-config": {
-		names: [".luaurc", ".robloxrc"],
+		names: [".luaurc", ".robloxrc", ".luau-analyze.json", "luau-analyze.json", "sourcemap.json"],
 	},
 	"luau-def": {
-		extensions: ["d.luau"],
+		extensions: ["d.luau", "h.luau"],
 	},
 	"luau": {
 		languages: ["luau"],
 		extensions: ["luau"],
 	},
+	"makefile": {
+		languages: ["makefile"],
+		extensions: ["mk"],
+		names: ["makefile", "gnumakefile", "kbuild"],
+	},
 	"markdown": {
 		languages: ["markdown"],
-		extensions: ["md", "mdx", "markdown", "rst"],
+		extensions: ["md", "markdown", "rst"],
+	},
+	"markdownx": {
+		extensions: ["mdx"],
 	},
 	"next": {
 		names: ["next.config.js", "next.config.mjs", "next.config.ts", "next.config.mts"],
@@ -547,20 +602,57 @@ export const fileIcons: FileIcons = {
 	"node": {
 		names: [
 			"package.json",
-			"package-lock.json",
 			".nvmrc",
 			".esmrc",
 			".node-version",
+			// todo: design icons for these
 			"pnpm-lock.yaml",
 			"pnpm-workspace.yaml",
 			".pnpmfile.cjs",
 		],
+	},
+	"npm-lock": {
+		names: ["package-lock.json"],
 	},
 	"npm": {
 		names: [".npmignore", ".npmrc"],
 	},
 	"nuxt": {
 		names: [".nuxtignore", ".nuxtrc", "nuxt.config.js", "nuxt.config.ts"],
+	},
+	"odin": {
+		extensions: ["odin"],
+	},
+	"package-config": {
+		names: [
+			"aftman.toml",
+			"cargo.toml",
+			"composer.json",
+			"foreman.toml",
+			"pesde.toml",
+			"pixi.toml",
+			"rokit.toml",
+			"rotriever.toml",
+			"uv.toml",
+			// todo: design icons for these
+			"deno.json",
+			"deno.jsonc",
+			"gemfile",
+		],
+	},
+	"package-lock": {
+		names: [
+			"cargo.lock",
+			"composer.lock",
+			"pesde.lock",
+			"pixi.lock",
+			"poetry.lock",
+			"rotriever.lock",
+			"uv.lock",
+			// todo: design icons for these
+			"deno.lock",
+			"gemfile.lock",
+		],
 	},
 	"pcss": {
 		languages: ["postcss"],
@@ -581,6 +673,13 @@ export const fileIcons: FileIcons = {
 			".postcssrc.yaml",
 			".postcssrc.yml",
 		],
+	},
+	"pdf": {
+		extensions: ["pdf"],
+	},
+	"perl": {
+		languages: ["perl", "perl6", "raku"],
+		extensions: ["pl", "pm", "pod", "t", "psgi", "raku", "rakumod", "rakutest", "rakudoc", "nqp", "p6", "pl6", "pm6"],
 	},
 	"php": {
 		languages: ["php"],
@@ -606,13 +705,26 @@ export const fileIcons: FileIcons = {
 	"readme": {
 		names: ["readme.md", "readme.rst", "readme.txt", "readme"],
 	},
+	"roblox-config": {
+		extensions: ["project.json", "meta.json", "rbxp"],
+		names: ["tarmac.toml", "asphalt.toml"],
+	},
+	"roblox-lock": {
+		extensions: ["rbxl.lock", "rbxlx.lock", "tarmac-manifest.toml", "asphalt.lock.toml"],
+	},
+	"roblox-model": {
+		extensions: ["rbxm", "rbxmx", "model.json"],
+	},
 	"roblox": {
-		extensions: ["rbxl", "rbxlx", "rbxm", "rbxmx", "project.json", "meta.json", "model.json"],
+		extensions: ["rbxl", "rbxlx"],
 	},
 	"ruby": {
 		languages: ["ruby"],
 		extensions: ["rb", "erb", "rbs"],
-		names: [".ruby-version", "gemfile", "gemfile.lock"],
+		names: [".ruby-version"],
+	},
+	"rust-config": {
+		names: ["rustfmt.toml", ".rustfmt.toml", "rust-toolchain.toml", "clippy.toml"],
 	},
 	"rust": {
 		languages: ["rust"],
@@ -782,7 +894,7 @@ export const fileIcons: FileIcons = {
 	},
 	"text": {
 		languages: ["plaintext"],
-		extensions: ["txt", "pdf", "rtf", "doc", "docx"],
+		extensions: ["txt", "rtf", "doc", "docx"],
 	},
 	"todo": {
 		extensions: ["todo"],
@@ -855,6 +967,10 @@ export const fileIcons: FileIcons = {
 			"m2v",
 		],
 	},
+	"visual-studio": {
+		languages: ["testOutput", "vb"],
+		extensions: ["csproj", "ruleset", "sln", "slnx", "suo", "vb", "vbs", "vcxitems", "vcxitems.filters", "vcxproj", "vcxproj.filters"],
+	},
 	"vite": {
 		names: [
 			"vite.config.js",
@@ -875,6 +991,10 @@ export const fileIcons: FileIcons = {
 			"vitest.workspace.json",
 		],
 	},
+	"vscode": {
+		names: [".vscodeignore"],
+		extensions: ["vsixmanifest", "vsix", "code-workplace", "code-workspace", "code-profile", "code-snippets", ".vscode/json"],
+	},
 	"vue": {
 		languages: ["vue"],
 		extensions: ["vue"],
@@ -888,9 +1008,22 @@ export const fileIcons: FileIcons = {
 			".vuerc",
 		],
 	},
+	"wally-lock": {
+		names: ["wally.lock"],
+	},
+	"wally": {
+		names: ["wally.toml"],
+	},
 	"web-assembly": {
 		languages: ["wasm"],
 		extensions: ["wasm", "wat"],
+	},
+	"workflow": {
+		languages: ["github-actions-workflow"],
+		extensions: [
+			"workflows/yml",
+			"workflows/yaml",
+		],
 	},
 	"xml": {
 		languages: ["xml"],
@@ -944,7 +1077,6 @@ export const fileIcons: FileIcons = {
 			"aseprite-extension",
 			"bz",
 			"bz2",
-			"db",
 			"gz",
 			"paq8n",
 			"paq8o",
