@@ -90,7 +90,7 @@ Charmed Icons also supports custom icon associations (thanks to [Catppuccin Icon
 ```
 
 > [!NOTE]
-> See the [preview images](#📷-previews) for a list of available icons.
+> See the [preview images](#-previews) for a list of available icons.
 
 ## 🙌 Requests
 
