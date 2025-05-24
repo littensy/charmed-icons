@@ -5,7 +5,7 @@ All notable changes to the "charmed-icons" extension will be documented in this 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## Unreleased
+## [0.10.0] - 2025-05-23
 
 - Add [preview images](https://github.com/littensy/charmed-icons) to the README
 - Add files `markdownx`, `perl`, `odin`, `fortran`, `fortran`, `godot`, `justfile`, `makefile`, `tex`, `workflow`, `pdf`, `vscode`, `visual-studio`, `key`
