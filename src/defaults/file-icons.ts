@@ -19,7 +19,7 @@ export const fileIcons: FileIcons = {
 		extensions: ["astro"],
 	},
 	"audio": {
-		extensions: ["aac", "aiff", "alac", "flac", "m4a", "m4p", "mogg", "mp3", "oga", "opus", "wav", "wma", "wv", "mid", "midi"],
+		extensions: ["aac", "aiff", "alac", "flac", "m4a", "m4p", "mogg", "mp3", "oga", "opus", "wav", "wma", "wv", "mid", "midi", "ogg"],
 	},
 	"binary": {
 		languages: ["code-text-binary"],
@@ -951,7 +951,6 @@ export const fileIcons: FileIcons = {
 			"flv",
 			"vob",
 			"ogv",
-			"ogg",
 			"gifv",
 			"avi",
 			"mov",
