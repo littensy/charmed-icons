@@ -5,6 +5,17 @@ All notable changes to the "charmed-icons" extension will be documented in this 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## Unreleased
+
+- Add files `markdownx`, `perl`, `odin`, `fortran`, `fortran`, `godot`, `justfile`, `makefile`, `tex`, `workflow`, `pdf`, `vscode`, `visual-studio`, `key`
+- Add files `package-config`, `package-lock`, `wally`, `wally-lock`, `lock`
+- Add more variants for files `lua`, `astro`, `rust`, `roblox`
+- Add folders `vscode`, `luau`
+- Redesign folders `template`, `model`, `storybook`, `image`
+- Adjust folder `src` to look sharper on some displays
+- Adjust `luau-config` to make it look like its eating
+- Make `php` cuter
+
 ## [0.9.1] - 2025-05-21
 
 - Add unused `assets` folder icon if you'd like to use the old one
