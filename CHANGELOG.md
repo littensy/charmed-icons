@@ -7,9 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+- Add [preview images](https://github.com/littensy/charmed-icons) to the README
 - Add files `markdownx`, `perl`, `odin`, `fortran`, `fortran`, `godot`, `justfile`, `makefile`, `tex`, `workflow`, `pdf`, `vscode`, `visual-studio`, `key`
 - Add files `package-config`, `package-lock`, `wally`, `wally-lock`, `lock`
-- Add more variants for files `lua`, `astro`, `rust`, `roblox`
+- Add more variants for files `lua`, `astro`, `rust`, `roblox`, `bun`, `npm`
 - Add folders `vscode`, `luau`
 - Add `c-header`, `cpp-header`, remove `h`
 - Redesign folders `template`, `model`, `storybook`, `image`

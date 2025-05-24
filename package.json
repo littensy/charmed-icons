@@ -113,6 +113,7 @@
 		"build": "tsup src/main.ts --external vscode --shims",
 		"clean": "rm -rf dist",
 		"generate": "tsx scripts/generate",
+		"preview": "tsx scripts/generate && tsx scripts/preview",
 		"check-duplicates": "tsx scripts/duplicates",
 		"typecheck": "tsc"
 	},
@@ -124,6 +125,7 @@
 		"@vscode/vsce": "^2.32.0",
 		"defu": "^6.1.4",
 		"eslint": "^9.27.0",
+		"puppeteer": "^24.9.0",
 		"tsup": "^8.5.0",
 		"tsx": "^4.19.4",
 		"typescript": "^5.8.3"

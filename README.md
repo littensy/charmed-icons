@@ -10,13 +10,28 @@
 [![GitHub License](https://img.shields.io/github/license/littensy/charmed-icons?style=for-the-badge)](LICENSE.md)
 ![GitHub Stars](https://img.shields.io/github/stars/littensy/charmed-icons?style=for-the-badge&logo=github)
 
-<img src="assets/files.png" alt="Files" width="512" />
-<br><br>
-<img src="assets/folders.png" alt="Folders" width="512" />
-
 </div>
 
-## ⚙️ Usage
+## 📷 Previews
+
+<details>
+  <summary>🫐 Base</summary>
+  <img src="assets/base.webp"/>
+</details>
+<details>
+  <summary>🥥 Light</summary>
+  <img src="assets/light.webp"/>
+</details>
+<details>
+  <summary>🍇 Soft</summary>
+  <img src="assets/soft.webp"/>
+</details>
+<details>
+  <summary>🍓 Warm</summary>
+  <img src="assets/warm.webp"/>
+</details>
+
+## 🔧 Usage
 
 ### Marketplace
 
@@ -75,7 +90,7 @@ Charmed Icons also supports custom icon associations (thanks to [Catppuccin Icon
 ```
 
 > [!NOTE]
-> See [`./icons`](./icons) for a list of available icons.
+> See the [preview images](#📷-previews) for a list of available icons.
 
 ## 🙌 Requests
 
@@ -85,7 +100,7 @@ Ping me on Discord `@littensy` for a quicker response!!
 
 ## ❤️ Gratitude
 
-Charmed Icons draws inspiration from:
+Charmed Icons draws heavy inspiration from:
 
 - [Catppuccin Icons](https://github.com/catppuccin/vscode-icons): Soothing pastel icons for VSCode.
 - [Monospace Theme](https://github.com/keksiqc/monospace-theme): The Monospace Theme from Google's IDX.
