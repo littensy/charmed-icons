@@ -5,6 +5,15 @@ All notable changes to the "charmed-icons" extension will be documented in this 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## Unreleased
+
+- Redesign files `toml`, `yaml`, `json`, `xml`, `csv`
+- Redesign folder `web`
+- Adjust files `config`, `changelog`, `storybook`
+- Add mantle file associations
+- Fix asphalt and tarmac lockfile associations
+- Remove overly project-dependent selene and darklua file associations
+
 ## [0.10.0] - 2025-05-23
 
 - Add [preview images](https://github.com/littensy/charmed-icons) to the README

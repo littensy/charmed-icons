@@ -9,7 +9,7 @@ const colors = {
 	base: { background: "#11151D", foreground: "#DFDFED" },
 	light: { background: "#FBFDFF", foreground: "#000000" },
 	soft: { background: "#1C2029", foreground: "#DFDFED" },
-	warm: { background: "#222222", foreground: "#EDE3DF" },
+	warm: { background: "#121212", foreground: "#EDE3DF" },
 } satisfies Record<IconVariant, { background: string; foreground: string }>;
 
 try {

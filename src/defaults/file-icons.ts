@@ -541,27 +541,11 @@ export const fileIcons: FileIcons = {
 	"lua-config": {
 		names: [
 			".luacheckrc",
-			".styluaignore",
 			"stylua.toml",
+			".stylua.toml",
+			".styluaignore",
 			"selene.toml",
-			"selene_defs.yml",
-			"selene_defs.yaml",
-			"selene_definitions.yml",
-			"selene_definitions.yaml",
-			"selene-definitions.yml",
-			"selene-definitions.yaml",
-			"testez.yml",
-			"testez.yaml",
-			"roblox.yml",
-			"roblox.yaml",
 			"js-to-lua.config.js",
-			"darklua.json",
-			".darklua.json",
-			".darklua-dev.json",
-			".darklua-tests.json",
-			".darklua-wally.json",
-			".darklua-bundle.json",
-			".darklua-bundle-dev.json",
 		],
 	},
 	"lua": {
@@ -569,7 +553,7 @@ export const fileIcons: FileIcons = {
 		extensions: ["lua"],
 	},
 	"luau-config": {
-		names: [".luaurc", ".robloxrc", ".luau-analyze.json", "luau-analyze.json", "sourcemap.json"],
+		names: [".luaurc", ".robloxrc"],
 	},
 	"luau-def": {
 		extensions: ["d.luau", "h.luau"],
@@ -710,10 +694,11 @@ export const fileIcons: FileIcons = {
 	},
 	"roblox-config": {
 		extensions: ["project.json", "meta.json", "rbxp"],
-		names: ["tarmac.toml", "asphalt.toml"],
+		names: ["asphalt.toml", "tarmac.toml", "mantle.yml", "mantle.yaml"],
 	},
 	"roblox-lock": {
-		extensions: ["rbxl.lock", "rbxlx.lock", "tarmac-manifest.toml", "asphalt.lock.toml"],
+		extensions: ["rbxl.lock", "rbxlx.lock", "mantle-state.yml", "mantle-state.yaml"],
+		names: ["asphalt.lock.toml", "tarmac-manifest.toml"],
 	},
 	"roblox-model": {
 		extensions: ["rbxm", "rbxmx", "model.json"],
