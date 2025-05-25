@@ -12,7 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Adjust files `config`, `changelog`, `storybook`
 - Add mantle file associations
 - Fix asphalt and tarmac lockfile associations
-- Remove overly project-dependent selene and darklua file associations
+- Remove overly project-dependent darklua file associations
 
 ## [0.10.0] - 2025-05-23
 
