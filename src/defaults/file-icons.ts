@@ -50,6 +50,19 @@ export const fileIcons: FileIcons = {
 			"changes.txt",
 		],
 	},
+	"cmake": {
+		names: [
+			"CMakeLists.txt",
+			"CMakeCache.txt",
+		],
+		extensions: [
+			"cmake",
+		],
+		languages: [
+			"cmake",
+			"cmake-cache",
+		],
+	},
 	"code-of-conduct": {
 		names: [
 			"code_of_conduct",
